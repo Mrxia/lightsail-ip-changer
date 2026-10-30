@@ -99,7 +99,7 @@ docker run -d --name lightsail-ip-changer --restart unless-stopped \
   -e CF_API_TOKEN=你的CF_API_TOKEN \
   -e CF_ZONE_ID=你的ZONE_ID \
   -e CF_RECORD_NAME=record.example.com \
-  用户名/change-lightsail-ip:latest
+  xiao6666/change-lightsail-ip:latest
 ```
 
 > 不需要 Cloudflare 更新时去掉 `CF_*` 相关参数；不需要 TG 通知时把 `TG_NOTIFY` 改为 `0`；
