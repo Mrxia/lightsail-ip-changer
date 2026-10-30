@@ -1,0 +1,7 @@
+services:
+  lightsail-ip-changer:
+    image: xiao6666/change-lightsail-ip:latest
+    container_name: lightsail-ip-changer
+    restart: unless-stopped
+    env_file:
+      - .env
